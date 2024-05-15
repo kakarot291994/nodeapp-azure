@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   console.log('Sucess..!')
-  res.json({ message: 'Hello, From Azure , This is version 1' })
+  res.json({ message: 'Hello, From Azure , This is version 2' })
 });
 
 
